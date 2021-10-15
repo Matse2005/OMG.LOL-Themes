@@ -1,0 +1,321 @@
+@import url("https://omg.lol/meta/css/font-awesome/css/all.css?v=2021-09-03_a");
+
+/* Fonts */
+
+@font-face {
+  font-family: "Mint Grotesk";
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://omg.lol/meta/type/mint-grotesk/MintGroteskV1.1-Thin.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Mint Grotesk";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://omg.lol/meta/type/mint-grotesk/MintGroteskV1.1-Light.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Mint Grotesk";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://omg.lol/meta/type/mint-grotesk/MintGroteskV1.1-Regular.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Mint Grotesk";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://omg.lol/meta/type/mint-grotesk/MintGroteskV1.1-Medium.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Mint Grotesk";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://omg.lol/meta/type/mint-grotesk/MintGroteskV1.1-Bold.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Mint Grotesk";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://omg.lol/meta/type/mint-grotesk/MintGroteskV1.1-ExtraBold.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Mint Grotesk";
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://omg.lol/meta/type/mint-grotesk/MintGroteskV1.1-Black.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Mint Grotesk";
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://omg.lol/meta/type/mint-grotesk/MintGroteskV1.1-Heavy.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Mint Grotesk";
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://omg.lol/meta/type/mint-grotesk/MintGroteskItalicV1.1-Thin.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Mint Grotesk";
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://omg.lol/meta/type/mint-grotesk/MintGroteskItalicV1.1-Light.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Mint Grotesk";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://omg.lol/meta/type/mint-grotesk/MintGroteskItalicV1.1-Regular.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Mint Grotesk";
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://omg.lol/meta/type/mint-grotesk/MintGroteskItalicV1.1-Medium.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Mint Grotesk";
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://omg.lol/meta/type/mint-grotesk/MintGroteskItalicV1.1-Bold.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Mint Grotesk";
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://omg.lol/meta/type/mint-grotesk/MintGroteskItalicV1.1-ExtraBold.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Mint Grotesk";
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://omg.lol/meta/type/mint-grotesk/MintGroteskItalicV1.1-Black.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Mint Grotesk";
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+  src: url("https://omg.lol/meta/type/mint-grotesk/MintGroteskItalicV1.1-Heavy.woff2")
+    format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 2em;
+  font-family: "Mint Grotesk", sans-serif;
+  font-weight: 300;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  overflow-wrap: break-word;
+}
+
+main {
+  display: block;
+  max-width: 30em;
+  border-radius: 1em;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2em;
+}
+
+h1 {
+  margin: 0;
+}
+
+#profile-items {
+  /*border-top: 1px solid #666;*/
+  padding: 0.5em 0 0 0;
+  margin: 1.5em 0 0 0;
+}
+
+#profile-items :is(h1, h2, h3, h4, h5, h6) {
+  text-align: left;
+  margin: 0;
+}
+
+#profile-items h1 {
+  font-size: 1.2em;
+}
+#profile-items h2 {
+  font-size: 1.2em;
+}
+#profile-items h3 {
+  font-size: 1.2em;
+}
+#profile-items h4 {
+  font-size: 1.1em;
+}
+#profile-items h5 {
+  font-size: 1.1em;
+}
+#profile-items h6 {
+  font-size: 1.1em;
+}
+
+#profile-picture-container {
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+#profile-picture {
+  border-radius: 0.25em;
+  height: 8.7em;
+}
+
+#pronouns {
+  margin: 0;
+  font-weight: 400;
+}
+
+#details {
+  margin: 1em 0;
+}
+
+#location {
+  display: inline-block;
+}
+
+#occupation {
+  display: inline-block;
+}
+
+#location,
+#occupation {
+  margin: 0.5em;
+  padding: 0 0.5em;
+}
+
+#bio {
+  text-align: center;
+  font-size: 110%;
+  line-height: 140%;
+}
+
+#footer {
+  margin: 0;
+  margin-top: 5em;
+  font-size: 90%;
+  font-weight: 300;
+}
+
+#footer a:link,
+#footer a:visited,
+#footer a:hover,
+#footer a:active {
+  text-decoration: none;
+  border: 0;
+}
+
+#footer .fa-plug {
+  transform: rotate(0deg);
+  transition: all 0.3s ease;
+}
+
+#footer:hover .fa-plug {
+  transform: rotate(90deg);
+  transition: all 0.3s ease;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  line-height: 170%;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.omg-icon-li {
+  position: relative;
+}
+
+.omg-icon {
+  display: inline-block;
+  width: 1em;
+  position: absolute;
+  top: -0.1em;
+  left: -1.5em;
+}
+
+.omg-icon svg {
+  width: 100%;
+  height: 1em;
+  vertical-align: middle;
+}
+
+@media (prefers-color-scheme: dark) {
+  .omg-icon svg {
+    fill: #fff;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 1em;
+    padding: 1em;
+  }
+  main {
+    padding: 1.5em;
+  }
+}
